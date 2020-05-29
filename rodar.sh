@@ -7,8 +7,8 @@
 # pega pid do antigo processo java
 old_java=$(pgrep -f java)
 
-matar_old_java=$(kill -9 $old_java)
-eval matar_old_java
+# mata processo antigo
+kill -9 $old_java
 
 ./ngrok authtoken 1cMj54TxX3DSjHuDsuvZY2Av73v_79eZpYVvscMVSc7xC15YX
 ./ngrok tcp --region=us 25565 &

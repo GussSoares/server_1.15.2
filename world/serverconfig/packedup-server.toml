@@ -1,0 +1,22 @@
+#How many rows does the basic backpack have?
+#Range: 1 ~ 8
+rowsBasic = 3
+#How many rows does the iron backpack have?
+#Range: 1 ~ 8
+rowsIron = 4
+#How many rows does the copper backpack have?
+#Range: 1 ~ 8
+rowsCopper = 4
+#How many rows does the silver backpack have?
+#Range: 1 ~ 8
+rowsSilver = 5
+#How many rows does the gold backpack have?
+#Range: 1 ~ 8
+rowsGold = 5
+#How many rows does the diamond backpack have?
+#Range: 1 ~ 8
+rowsDiamond = 7
+#How many rows does the obsidian backpack have?
+#Range: 1 ~ 8
+rowsObsidian = 8
+

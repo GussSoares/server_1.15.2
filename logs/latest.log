@@ -1,10 +1,276 @@
-[29May2020 02:04:25.475] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 31.2.0, --fml.mcpVersion, 20200515.085601, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge]
-[29May2020 02:04:25.478] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.1.0+69+master.79f13f7 starting: java version 1.8.0_252 by Azul Systems, Inc.
-[29May2020 02:04:25.708] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[29May2020 02:04:26.828] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, .]
-[29May2020 02:04:39.677] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[29May2020 02:04:39.678] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[29May2020 02:04:39.681] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[29May2020 02:04:39.684] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[29May2020 02:04:39.687] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[29May2020 02:04:39.842] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.15.2
+[29May2020 04:22:54.466] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 31.2.0, --fml.mcpVersion, 20200515.085601, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, --nogui]
+[29May2020 04:22:54.471] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.1.0+69+master.79f13f7 starting: java version 1.8.0_252 by Azul Systems, Inc.
+[29May2020 04:22:54.667] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[29May2020 04:22:56.102] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., --nogui]
+[29May2020 04:23:08.672] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[29May2020 04:23:08.677] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[29May2020 04:23:08.680] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[29May2020 04:23:08.684] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[29May2020 04:23:08.689] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[29May2020 04:23:08.905] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.15.2
+[29May2020 04:23:10.993] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.2.0, for MC 1.15.2 with MCP 20200515.085601
+[29May2020 04:23:10.995] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.2.0 Initialized
+[29May2020 04:23:11.201] [modloading-worker-1/INFO] [roughmobsrevamped/]: Initializing Config...
+[29May2020 04:23:11.315] [modloading-worker-1/INFO] [roughmobsrevamped/]: Registering Entities...
+[29May2020 04:23:11.887] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity roughmobsrevamped:zombie_champion
+[29May2020 04:23:11.892] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity roughmobsrevamped:zombie_pigman_champion
+[29May2020 04:23:11.896] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity roughmobsrevamped:husk_champion
+[29May2020 04:23:11.899] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity roughmobsrevamped:skeleton_champion
+[29May2020 04:23:12.416] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [falling_tree] Starting version check at https://raw.githubusercontent.com/RakSrinaNa/FallingTree/1.15.2/update.json
+[29May2020 04:23:12.420] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[29May2020 04:23:12.445] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[29May2020 04:23:12.448] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Generating keypair
+[29May2020 04:23:12.960] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[29May2020 04:23:12.987] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
+[29May2020 04:23:13.029] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [falling_tree] Found status: AHEAD Current: 2.1.3+28 Target: null
+[29May2020 04:23:13.030] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[29May2020 04:23:13.216] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 31.2.0 Target: null
+[29May2020 04:23:13.219] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [roughmobsrevamped] Starting version check at https://api.npoint.io/0bfdf843f7f634c511c6
+[29May2020 04:23:13.286] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[29May2020 04:23:13.288] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[29May2020 04:23:13.289] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[29May2020 04:23:13.291] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[29May2020 04:23:13.349] [modloading-worker-0/INFO] [roughmobsrevamped/]: Registering 3rd Party Mod Compatibility...
+[29May2020 04:23:13.351] [modloading-worker-0/INFO] [roughmobsrevamped/]: Initializing Core Features...
+[29May2020 04:23:13.602] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [roughmobsrevamped] Found status: OUTDATED Current: version Target: 4.1.2
+[29May2020 04:23:14.221] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[29May2020 04:23:14.965] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Packed-Up-Backpacks-Mod-1.15.2.jar, FallingTree-1.15.2-2.1.3+28.jar, QuickLeafDecay-MC1.15.2-1.2.5.jar, expandedstorage-1.1.8+1.15.2.jar, Rough-Mob-Revamped-Mod-1.15.2.jar, Craftable-Saddles-Mod-1.15.2.jar, damage_indicator-0.1.0.jar, Neat-Mod-1.15.2.jar, Xaeros_Minimap_20.12.1_Forge_1.15.2.jar, jei-1.15.2-6.0.0.4.jar, Default, forge-1.15.2-31.2.0-universal.jar
+[29May2020 04:23:16.429] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe packedup:silverbackpack2
+com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/silver'
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:221) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[?:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[?:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:187) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.func_192408_a(ShapedRecipe.java:254) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.access$000(ShapedRecipe.java:24) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:278) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:274) ~[?:?]
+	at com.supermartijn642.packedup.BackpackRecipe$Serializer.read(BackpackRecipe.java:44) ~[?:1.0-mc1.15]
+	at com.supermartijn642.packedup.BackpackRecipe$Serializer.func_199425_a_(BackpackRecipe.java:41) ~[?:1.0-mc1.15]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:134) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:60) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:37) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_252]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_252]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_252]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:731) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:141) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:714) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:708) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:127) [?:?]
+	at net.minecraft.server.MinecraftServer.func_195568_a(MinecraftServer.java:1464) [?:?]
+	at net.minecraft.server.MinecraftServer.func_195560_a(MinecraftServer.java:450) [?:?]
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:363) [?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:212) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:613) [?:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[29May2020 04:23:16.472] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe packedup:silverbackpack
+com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/silver'
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:221) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[?:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[?:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:187) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.func_192408_a(ShapedRecipe.java:254) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.access$000(ShapedRecipe.java:24) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:278) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:274) ~[?:?]
+	at com.supermartijn642.packedup.BackpackRecipe$Serializer.read(BackpackRecipe.java:44) ~[?:1.0-mc1.15]
+	at com.supermartijn642.packedup.BackpackRecipe$Serializer.func_199425_a_(BackpackRecipe.java:41) ~[?:1.0-mc1.15]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:134) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:60) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:37) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_252]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_252]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_252]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:731) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:141) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:714) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:708) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:127) [?:?]
+	at net.minecraft.server.MinecraftServer.func_195568_a(MinecraftServer.java:1464) [?:?]
+	at net.minecraft.server.MinecraftServer.func_195560_a(MinecraftServer.java:450) [?:?]
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:363) [?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:212) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:613) [?:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[29May2020 04:23:16.483] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe packedup:goldbackpack2
+com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/copper'
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:221) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[?:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[?:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:187) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.func_192408_a(ShapedRecipe.java:254) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.access$000(ShapedRecipe.java:24) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:278) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:274) ~[?:?]
+	at com.supermartijn642.packedup.BackpackRecipe$Serializer.read(BackpackRecipe.java:44) ~[?:1.0-mc1.15]
+	at com.supermartijn642.packedup.BackpackRecipe$Serializer.func_199425_a_(BackpackRecipe.java:41) ~[?:1.0-mc1.15]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:134) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:60) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:37) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_252]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_252]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_252]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:731) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:141) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:714) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:708) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:127) [?:?]
+	at net.minecraft.server.MinecraftServer.func_195568_a(MinecraftServer.java:1464) [?:?]
+	at net.minecraft.server.MinecraftServer.func_195560_a(MinecraftServer.java:450) [?:?]
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:363) [?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:212) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:613) [?:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[29May2020 04:23:16.502] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe packedup:diamondbackpack2
+com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/silver'
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:221) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[?:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[?:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:187) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.func_192408_a(ShapedRecipe.java:254) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.access$000(ShapedRecipe.java:24) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:278) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:274) ~[?:?]
+	at com.supermartijn642.packedup.BackpackRecipe$Serializer.read(BackpackRecipe.java:44) ~[?:1.0-mc1.15]
+	at com.supermartijn642.packedup.BackpackRecipe$Serializer.func_199425_a_(BackpackRecipe.java:41) ~[?:1.0-mc1.15]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:134) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:60) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:37) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_252]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_252]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_252]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:731) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:141) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:714) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:708) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:127) [?:?]
+	at net.minecraft.server.MinecraftServer.func_195568_a(MinecraftServer.java:1464) [?:?]
+	at net.minecraft.server.MinecraftServer.func_195560_a(MinecraftServer.java:450) [?:?]
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:363) [?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:212) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:613) [?:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[29May2020 04:23:16.533] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe packedup:copperbackpack
+com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/copper'
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:221) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[?:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[?:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:187) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.func_192408_a(ShapedRecipe.java:254) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.access$000(ShapedRecipe.java:24) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:278) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:274) ~[?:?]
+	at com.supermartijn642.packedup.BackpackRecipe$Serializer.read(BackpackRecipe.java:44) ~[?:1.0-mc1.15]
+	at com.supermartijn642.packedup.BackpackRecipe$Serializer.func_199425_a_(BackpackRecipe.java:41) ~[?:1.0-mc1.15]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:134) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:60) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:37) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_252]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_252]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_252]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:731) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:141) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:714) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:708) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:127) [?:?]
+	at net.minecraft.server.MinecraftServer.func_195568_a(MinecraftServer.java:1464) [?:?]
+	at net.minecraft.server.MinecraftServer.func_195560_a(MinecraftServer.java:450) [?:?]
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:363) [?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:212) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:613) [?:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[29May2020 04:23:16.557] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[29May2020 04:23:18.063] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 857 advancements
+[29May2020 04:23:20.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[29May2020 04:23:22.491] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:22.492] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:22.493] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:22.493] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:22.493] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.609] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.611] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.620] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.621] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.621] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.622] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.622] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.622] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.623] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.623] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.623] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.624] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.624] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.625] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.625] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.625] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.626] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.626] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.626] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.627] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.628] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.628] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.628] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.629] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.629] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.630] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.630] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.630] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.631] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.631] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.632] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.632] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.633] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.633] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.634] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.634] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.634] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.635] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.635] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:42.636] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:45.109] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:45.110] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:45.110] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:45.111] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:45.112] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:45.468] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:45.972] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:46.467] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:46.988] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 04:23:47.469] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 73%
+[29May2020 04:23:48.617] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 81%
+[29May2020 04:23:48.621] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 81%
+[29May2020 04:23:49.057] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 28596 ms
+[29May2020 04:23:49.058] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (34.939s)! For help, type "help"
+[29May2020 04:23:49.772] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[29May2020 04:23:49.778] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved

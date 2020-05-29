@@ -6,13 +6,20 @@
 
 # pega pid do antigo processo java
 old_java=$(pgrep -f java)
-
+if [ -n $old_java ]
+then
+	echo "Processo anterior com id: $old_java"
+fi
 # mata processo antigo
 kill -9 $old_java
+echo "Matando processo de id: $old_java"
 
 ./ngrok authtoken 1cMj54TxX3DSjHuDsuvZY2Av73v_79eZpYVvscMVSc7xC15YX
-./ngrok tcp --region=us 25565 &
+nohup ./ngrok tcp --region=us 25565 &
 
-java -Xmx2G -Xms2G -jar forge-1.15.2-31.2.0.jar --nogui &
+echo ""
+ip=$(curl --silent http://127.0.0.1:4040/api/tunnels | jq '.tunnels[0].public_url')
+echo "##### IP DO SERVIDOR #####\n"
+echo "$ip"
 
-
+java -Xmx2G -Xms2G -jar forge-1.15.2-31.2.0.jar --nogui

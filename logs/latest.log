@@ -1,41 +1,33 @@
-[29May2020 04:22:54.466] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 31.2.0, --fml.mcpVersion, 20200515.085601, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, --nogui]
-[29May2020 04:22:54.471] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.1.0+69+master.79f13f7 starting: java version 1.8.0_252 by Azul Systems, Inc.
-[29May2020 04:22:54.667] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[29May2020 04:22:56.102] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., --nogui]
-[29May2020 04:23:08.672] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[29May2020 04:23:08.677] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[29May2020 04:23:08.680] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[29May2020 04:23:08.684] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[29May2020 04:23:08.689] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[29May2020 04:23:08.905] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.15.2
-[29May2020 04:23:10.993] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.2.0, for MC 1.15.2 with MCP 20200515.085601
-[29May2020 04:23:10.995] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.2.0 Initialized
-[29May2020 04:23:11.201] [modloading-worker-1/INFO] [roughmobsrevamped/]: Initializing Config...
-[29May2020 04:23:11.315] [modloading-worker-1/INFO] [roughmobsrevamped/]: Registering Entities...
-[29May2020 04:23:11.887] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity roughmobsrevamped:zombie_champion
-[29May2020 04:23:11.892] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity roughmobsrevamped:zombie_pigman_champion
-[29May2020 04:23:11.896] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity roughmobsrevamped:husk_champion
-[29May2020 04:23:11.899] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity roughmobsrevamped:skeleton_champion
-[29May2020 04:23:12.416] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [falling_tree] Starting version check at https://raw.githubusercontent.com/RakSrinaNa/FallingTree/1.15.2/update.json
-[29May2020 04:23:12.420] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[29May2020 04:23:12.445] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[29May2020 04:23:12.448] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Generating keypair
-[29May2020 04:23:12.960] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[29May2020 04:23:12.987] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
-[29May2020 04:23:13.029] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [falling_tree] Found status: AHEAD Current: 2.1.3+28 Target: null
-[29May2020 04:23:13.030] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[29May2020 04:23:13.216] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 31.2.0 Target: null
-[29May2020 04:23:13.219] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [roughmobsrevamped] Starting version check at https://api.npoint.io/0bfdf843f7f634c511c6
-[29May2020 04:23:13.286] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[29May2020 04:23:13.288] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[29May2020 04:23:13.289] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[29May2020 04:23:13.291] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[29May2020 04:23:13.349] [modloading-worker-0/INFO] [roughmobsrevamped/]: Registering 3rd Party Mod Compatibility...
-[29May2020 04:23:13.351] [modloading-worker-0/INFO] [roughmobsrevamped/]: Initializing Core Features...
-[29May2020 04:23:13.602] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [roughmobsrevamped] Found status: OUTDATED Current: version Target: 4.1.2
-[29May2020 04:23:14.221] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[29May2020 04:23:14.965] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Packed-Up-Backpacks-Mod-1.15.2.jar, FallingTree-1.15.2-2.1.3+28.jar, QuickLeafDecay-MC1.15.2-1.2.5.jar, expandedstorage-1.1.8+1.15.2.jar, Rough-Mob-Revamped-Mod-1.15.2.jar, Craftable-Saddles-Mod-1.15.2.jar, damage_indicator-0.1.0.jar, Neat-Mod-1.15.2.jar, Xaeros_Minimap_20.12.1_Forge_1.15.2.jar, jei-1.15.2-6.0.0.4.jar, Default, forge-1.15.2-31.2.0-universal.jar
-[29May2020 04:23:16.429] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe packedup:silverbackpack2
+[30May2020 01:39:35.692] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 31.2.0, --fml.mcpVersion, 20200515.085601, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, --nogui]
+[30May2020 01:39:35.698] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.1.0+69+master.79f13f7 starting: java version 11.0.7 by Ubuntu
+[30May2020 01:39:36.192] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[30May2020 01:39:37.258] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[30May2020 01:39:37.679] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[30May2020 01:39:38.956] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., --nogui]
+[30May2020 01:39:58.166] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[30May2020 01:39:58.171] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[30May2020 01:39:58.174] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[30May2020 01:39:58.185] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[30May2020 01:39:58.195] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[30May2020 01:39:58.539] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.15.2
+[30May2020 01:40:00.652] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.2.0, for MC 1.15.2 with MCP 20200515.085601
+[30May2020 01:40:00.663] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.2.0 Initialized
+[30May2020 01:40:02.252] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[30May2020 01:40:02.260] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [falling_tree] Starting version check at https://raw.githubusercontent.com/RakSrinaNa/FallingTree/1.15.2/update.json
+[30May2020 01:40:02.403] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[30May2020 01:40:02.404] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Generating keypair
+[30May2020 01:40:03.247] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[30May2020 01:40:03.369] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
+[30May2020 01:40:03.468] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [falling_tree] Found status: AHEAD Current: 2.1.3+28 Target: null
+[30May2020 01:40:03.470] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[30May2020 01:40:03.864] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[30May2020 01:40:03.866] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[30May2020 01:40:03.867] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[30May2020 01:40:03.868] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[30May2020 01:40:03.887] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 31.2.0 Target: null
+[30May2020 01:40:05.929] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[30May2020 01:40:07.540] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Packed-Up-Backpacks-Mod-1.15.2.jar, FallingTree-1.15.2-2.1.3+28.jar, forge-1.15.2-31.2.0-universal.jar, QuickLeafDecay-MC1.15.2-1.2.5.jar, expandedstorage-1.1.8+1.15.2.jar, Craftable-Saddles-Mod-1.15.2.jar, damage_indicator-0.1.0.jar, Neat-Mod-1.15.2.jar, Xaeros_Minimap_20.12.1_Forge_1.15.2.jar, jei-1.15.2-6.0.0.4.jar
+[30May2020 01:40:50.677] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe packedup:silverbackpack2
 com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/silver'
 	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:221) ~[?:?]
 	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[?:?]
@@ -51,9 +43,8 @@ com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/silver'
 	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:60) ~[?:?]
 	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:37) ~[?:?]
 	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
-	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_252]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_252]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_252]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
 	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
 	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18) [?:?]
 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144) [?:?]
@@ -69,8 +60,8 @@ com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/silver'
 	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:363) [?:?]
 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:212) [?:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:613) [?:?]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
-[29May2020 04:23:16.472] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe packedup:silverbackpack
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[30May2020 01:40:50.710] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe packedup:silverbackpack
 com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/silver'
 	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:221) ~[?:?]
 	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[?:?]
@@ -86,9 +77,8 @@ com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/silver'
 	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:60) ~[?:?]
 	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:37) ~[?:?]
 	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
-	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_252]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_252]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_252]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
 	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
 	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18) [?:?]
 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144) [?:?]
@@ -104,8 +94,8 @@ com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/silver'
 	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:363) [?:?]
 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:212) [?:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:613) [?:?]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
-[29May2020 04:23:16.483] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe packedup:goldbackpack2
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[30May2020 01:40:50.741] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe packedup:goldbackpack2
 com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/copper'
 	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:221) ~[?:?]
 	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[?:?]
@@ -121,9 +111,8 @@ com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/copper'
 	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:60) ~[?:?]
 	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:37) ~[?:?]
 	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
-	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_252]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_252]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_252]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
 	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
 	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18) [?:?]
 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144) [?:?]
@@ -139,8 +128,8 @@ com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/copper'
 	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:363) [?:?]
 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:212) [?:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:613) [?:?]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
-[29May2020 04:23:16.502] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe packedup:diamondbackpack2
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[30May2020 01:40:50.785] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe packedup:diamondbackpack2
 com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/silver'
 	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:221) ~[?:?]
 	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[?:?]
@@ -156,9 +145,8 @@ com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/silver'
 	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:60) ~[?:?]
 	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:37) ~[?:?]
 	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
-	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_252]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_252]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_252]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
 	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
 	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18) [?:?]
 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144) [?:?]
@@ -174,8 +162,8 @@ com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/silver'
 	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:363) [?:?]
 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:212) [?:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:613) [?:?]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
-[29May2020 04:23:16.533] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe packedup:copperbackpack
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[30May2020 01:40:50.819] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe packedup:copperbackpack
 com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/copper'
 	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:221) ~[?:?]
 	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[?:?]
@@ -191,9 +179,8 @@ com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/copper'
 	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:60) ~[?:?]
 	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:37) ~[?:?]
 	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
-	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_252]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_252]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_252]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
 	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
 	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18) [?:?]
 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144) [?:?]
@@ -209,68 +196,898 @@ com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/copper'
 	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:363) [?:?]
 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:212) [?:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:613) [?:?]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
-[29May2020 04:23:16.557] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
-[29May2020 04:23:18.063] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 857 advancements
-[29May2020 04:23:20.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[29May2020 04:23:22.491] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:22.492] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:22.493] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:22.493] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:22.493] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.609] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.611] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.620] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.621] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.621] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.622] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.622] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.622] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.623] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.623] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.623] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.624] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.624] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.625] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.625] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.625] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.626] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.626] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.626] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.627] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.628] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.628] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.628] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.629] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.629] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.630] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.630] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.630] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.631] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.631] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.632] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.632] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.633] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.633] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.634] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.634] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.634] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.635] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.635] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:42.636] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:45.109] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:45.110] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:45.110] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:45.111] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:45.112] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:45.468] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:45.972] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:46.467] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:46.988] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29May2020 04:23:47.469] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 73%
-[29May2020 04:23:48.617] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 81%
-[29May2020 04:23:48.621] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 81%
-[29May2020 04:23:49.057] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 28596 ms
-[29May2020 04:23:49.058] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (34.939s)! For help, type "help"
-[29May2020 04:23:49.772] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[29May2020 04:23:49.778] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[30May2020 01:40:50.851] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[30May2020 01:40:52.276] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 857 advancements
+[30May2020 01:40:53.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[30May2020 01:40:56.941] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[30May2020 01:40:56.942] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[30May2020 01:40:56.943] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[30May2020 01:40:56.943] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[30May2020 01:40:56.944] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[30May2020 01:40:56.944] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[30May2020 01:40:56.945] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[30May2020 01:40:56.945] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[30May2020 01:40:57.264] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[30May2020 01:40:57.732] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 44%
+[30May2020 01:40:58.447] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 5215 ms
+[30May2020 01:40:58.449] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (52.901s)! For help, type "help"
+[30May2020 01:40:59.245] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[30May2020 01:40:59.248] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[30May2020 01:41:11.139] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@52062892
+[30May2020 01:41:11.239] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: samodo[/127.0.0.1:60762] logged in with entity id 87 at (583.5, 64.0000002, 55.5)
+[30May2020 01:41:11.395] [Netty Epoll Server IO #2/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@17f26fa1 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[30May2020 01:41:11.398] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: samodo joined the game
+[30May2020 01:41:11.401] [Netty Epoll Server IO #2/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@17a966eb (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[30May2020 01:41:16.975] [Netty Epoll Server IO #2/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@17f26fa1 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[30May2020 01:41:16.976] [Netty Epoll Server IO #2/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@17a966eb (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[30May2020 01:41:22.156] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[30May2020 01:41:26.935] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> alo
+[30May2020 01:41:31.910] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@90583c7
+[30May2020 01:41:31.924] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: gustavo5855[/127.0.0.1:60834] logged in with entity id 343 at (533.6910975108239, 12.0, -31.056749129820616)
+[30May2020 01:41:31.939] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gustavo5855 joined the game
+[30May2020 01:41:31.972] [Netty Epoll Server IO #3/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@17f26fa1 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[30May2020 01:41:31.973] [Netty Epoll Server IO #3/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@17a966eb (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[30May2020 01:41:34.537] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> alo
+[30May2020 01:41:38.793] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: samodo was slain by Zombie
+[30May2020 01:41:42.187] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: samodo lost connection: Timed out
+[30May2020 01:41:42.189] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: samodo left the game
+[30May2020 01:41:42.278] [Server thread/WARN] [net.minecraft.network.NetworkManager/]: handleDisconnection() called twice
+[30May2020 01:41:42.372] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> egua
+[30May2020 01:41:54.618] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@735b8c34
+[30May2020 01:41:54.626] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: samodo[/127.0.0.1:60920] logged in with entity id 455 at (583.5, 64.0000002, 55.5)
+[30May2020 01:41:54.637] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: samodo joined the game
+[30May2020 01:41:54.674] [Netty Epoll Server IO #1/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@17f26fa1 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[30May2020 01:41:54.678] [Netty Epoll Server IO #1/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@17a966eb (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[30May2020 01:42:01.120] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> alo
+[30May2020 01:42:09.821] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: samodo lost connection: Timed out
+[30May2020 01:42:09.821] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: samodo left the game
+[30May2020 01:42:09.909] [Server thread/WARN] [net.minecraft.network.NetworkManager/]: handleDisconnection() called twice
+[30May2020 01:42:15.620] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@7deaf9aa
+[30May2020 01:42:15.628] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: samodo[/127.0.0.1:32772] logged in with entity id 530 at (583.5, 64.0000002, 55.5)
+[30May2020 01:42:15.654] [Netty Epoll Server IO #3/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@17f26fa1 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[30May2020 01:42:15.654] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: samodo joined the game
+[30May2020 01:42:15.663] [Netty Epoll Server IO #3/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@17a966eb (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[30May2020 01:42:21.144] [Netty Epoll Server IO #3/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@17f26fa1 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[30May2020 01:42:21.145] [Netty Epoll Server IO #3/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@17a966eb (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[30May2020 01:42:24.532] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> ucu
+[30May2020 01:42:25.739] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> cucucucu
+[30May2020 01:42:26.809] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> cuuuu
+[30May2020 01:42:27.911] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> cucuucu
+[30May2020 01:42:29.120] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> morre nao
+[30May2020 01:42:38.416] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> eu n tava me mechendo
+[30May2020 01:42:41.237] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> agr pegou
+[30May2020 01:43:03.870] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> VEM SEUS FDP AGR QUERO VE
+[30May2020 01:43:09.261] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> fala isso n
+[30May2020 01:43:13.810] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> >_>
+[30May2020 01:43:19.031] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> diamond
+[30May2020 01:43:25.427] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> UUH
+[30May2020 01:43:58.508] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> uou
+[30May2020 01:43:59.786] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> muito
+[30May2020 01:44:04.577] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> eita
+[30May2020 01:44:24.584] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gustavo5855 has made the advancement [Diamonds!]
+[30May2020 01:44:36.188] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> 5
+[30May2020 01:44:41.412] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> to com 2
+[30May2020 01:44:44.660] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> da pra fazer 2 picareta
+[30May2020 01:44:49.360] [Server thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Librarian'/100, l='world', x=681.09, y=76.00, z=67.70] died, message: 'Librarian was slain by Zombie'
+[30May2020 01:45:13.174] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> a gente nem chou abelha
+[30May2020 01:45:24.788] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> vdd ne
+[30May2020 01:45:55.321] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gustavo5855 was blown up by Creeper
+[30May2020 01:45:56.970] [Netty Epoll Server IO #3/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@17f26fa1 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[30May2020 01:45:56.970] [Netty Epoll Server IO #3/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@17a966eb (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[30May2020 01:45:59.870] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> hehe
+[30May2020 01:46:03.254] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: gustavo5855 moved too quickly! 1.4525254681935849,0.0,10.140137286952914
+[30May2020 01:46:03.264] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2671ms or 53 ticks behind
+[30May2020 01:46:22.061] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> dorme rapido
+[30May2020 01:46:23.858] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> Foda que eu n posso morre
+[30May2020 01:46:26.360] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> ai lasca
+[30May2020 01:46:30.416] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> pq qnd desativa pra fica com item
+[30May2020 01:46:32.511] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> eu perco tudo
+[30May2020 01:46:38.734] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> pq n vou poer ir pega
+[30May2020 01:46:51.055] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> kkk
+[30May2020 01:48:36.111] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> tu sabia
+[30May2020 01:48:41.884] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> que os papagaios
+[30May2020 01:48:45.330] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> imitam mosntros
+[30May2020 01:48:50.714] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> sabia dessa n
+[30May2020 01:48:56.849] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> vlh q lgl
+[30May2020 01:48:57.342] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> sa muito fdp
+[30May2020 01:49:02.664] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> carai
+[30May2020 01:49:04.987] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> agr que reparei
+[30May2020 01:49:06.210] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> é vdd
+[30May2020 01:49:07.156] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> kkkkkk
+[30May2020 01:49:09.905] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> do nada tu escuta um esqueleto
+[30May2020 01:49:11.689] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> mas é ele
+[30May2020 01:49:12.455] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> tao imitando esqueleto
+[30May2020 01:49:19.628] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> ah bichos viado
+[30May2020 01:49:36.157] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> depois que esquentar os ferros
+[30May2020 01:49:40.585] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> esquentar as pedras pra comecar
+[30May2020 01:49:49.869] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> bel
+[30May2020 01:50:03.507] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> a gente pode começa a esquenta agr
+[30May2020 01:50:18.589] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> heee
+[30May2020 01:52:15.568] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> tu pegou algum redstone?
+[30May2020 01:52:41.267] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> dps vou fazer um farm de madeira que é bem util
+[30May2020 01:52:51.758] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> sim, é pequenaessas farm?
+[30May2020 01:52:52.160] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> porem tem que ter um farm de pó de osso
+[30May2020 01:52:57.566] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> depende de qual farm
+[30May2020 01:53:08.530] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> mas no geral
+[30May2020 01:53:13.574] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> medios
+[30May2020 01:53:16.959] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> medio a grande
+[30May2020 01:53:29.707] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> faz as medias
+[30May2020 01:53:36.576] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> a gente n podia ter encontrado um lugar melhor
+[30May2020 01:53:37.226] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> pra n ocupar mutio espaco na valdeia
+[30May2020 01:53:47.574] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> perto de vila, perto de oceano que cruza com floresta
+[30May2020 01:53:51.056] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> tem montanhas
+[30May2020 01:53:52.023] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> ta top
+[30May2020 01:53:53.641] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> kkkkkkk
+[30May2020 01:53:56.160] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ss
+[30May2020 01:54:00.807] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> volto ja
+[30May2020 01:54:02.373] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> perai
+[30May2020 01:54:04.357] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: gustavo5855 lost connection: Disconnected
+[30May2020 01:54:04.358] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gustavo5855 left the game
+[30May2020 01:54:12.403] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> bel
+[30May2020 01:54:19.553] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: samodo lost connection: Timed out
+[30May2020 01:54:19.554] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: samodo left the game
+[30May2020 01:54:34.771] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@72504d56
+[30May2020 01:54:34.778] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: samodo[/127.0.0.1:35328] logged in with entity id 2376 at (558.3000000119209, 67.0, 72.30000001192091)
+[30May2020 01:54:34.802] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: samodo joined the game
+[30May2020 01:54:34.827] [Netty Epoll Server IO #3/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@17f26fa1 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[30May2020 01:54:34.830] [Netty Epoll Server IO #3/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@17a966eb (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[30May2020 01:54:38.959] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> cucu
+[30May2020 01:54:46.013] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> cu uc cu
+[30May2020 01:54:50.762] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> a a i i tuqui tuqui
+[30May2020 01:55:04.956] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: samodo lost connection: Timed out
+[30May2020 01:55:04.956] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: samodo left the game
+[30May2020 01:55:05.023] [Server thread/WARN] [net.minecraft.network.NetworkManager/]: handleDisconnection() called twice
+[30May2020 01:55:39.754] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@4c635388
+[30May2020 01:55:39.761] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: samodo[/127.0.0.1:35566] logged in with entity id 2833 at (558.3000000119209, 67.0, 72.30000001192091)
+[30May2020 01:55:39.782] [Netty Epoll Server IO #1/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@17f26fa1 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[30May2020 01:55:39.783] [Netty Epoll Server IO #1/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@17a966eb (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[30May2020 01:55:39.785] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: samodo joined the game
+[30May2020 01:55:50.304] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> a a i i tuquituqui
+[30May2020 01:55:55.406] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> servidorzinho bonitinho funciona
+[30May2020 01:56:00.654] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> a a a a a a a a a a
+[30May2020 01:56:10.003] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: samodo lost connection: Timed out
+[30May2020 01:56:10.004] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: samodo left the game
+[30May2020 01:56:27.910] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@4db0390b
+[30May2020 01:56:27.914] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: samodo[/127.0.0.1:35742] logged in with entity id 3288 at (558.3000000119209, 67.0, 72.30000001192091)
+[30May2020 01:56:27.937] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: samodo joined the game
+[30May2020 01:56:27.941] [Netty Epoll Server IO #3/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@17f26fa1 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[30May2020 01:56:27.942] [Netty Epoll Server IO #3/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@17a966eb (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[30May2020 01:56:37.054] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> a a i i tuquitutqui
+[30May2020 01:56:40.653] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> z z
+[30May2020 02:20:00.317] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@5ac0b1d7
+[30May2020 02:20:00.324] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: gustavo5855[/127.0.0.1:40664] logged in with entity id 6251 at (584.9703423951903, 64.0, 62.10012271774413)
+[30May2020 02:20:00.331] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gustavo5855 joined the game
+[30May2020 02:20:00.368] [Netty Epoll Server IO #1/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@17f26fa1 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[30May2020 02:20:00.370] [Netty Epoll Server IO #1/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@17a966eb (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[30May2020 02:20:08.229] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> e
+[30May2020 02:20:10.460] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> e
+[30May2020 02:20:17.922] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> mimir
+[30May2020 02:20:32.988] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> sabe a caverna
+[30May2020 02:20:36.172] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> logo no começo
+[30May2020 02:20:39.058] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ss
+[30May2020 02:20:43.067] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> tem uma cachoeira de lava
+[30May2020 02:20:46.941] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> n sei se tu reparou
+[30May2020 02:20:50.412] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> é
+[30May2020 02:20:52.372] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ??
+[30May2020 02:20:54.659] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> tem
+[30May2020 02:20:54.992] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> sabia n
+[30May2020 02:20:57.572] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> ai eu tampei um lado
+[30May2020 02:21:01.785] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> e passei pelo lado
+[30May2020 02:21:07.757] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> aa
+[30May2020 02:21:09.087] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> tinha um buraquinho por cima
+[30May2020 02:21:10.074] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> sei
+[30May2020 02:21:12.789] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> subi no buraco
+[30May2020 02:21:15.608] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: gustavo5855 lost connection: Timed out
+[30May2020 02:21:15.608] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gustavo5855 left the game
+[30May2020 02:21:16.377] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> apareceu outra caverna grande
+[30May2020 02:21:19.681] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@dbd3bae
+[30May2020 02:21:19.687] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: gustavo5855[/127.0.0.1:40938] logged in with entity id 6447 at (557.7741572486003, 52.92159999847412, -6.207561736027972)
+[30May2020 02:21:19.701] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gustavo5855 joined the game
+[30May2020 02:21:19.707] [Netty Epoll Server IO #2/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@17f26fa1 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[30May2020 02:21:19.708] [Netty Epoll Server IO #2/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@17a966eb (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[30May2020 02:21:24.160] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> sei
+[30May2020 02:21:27.060] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> oqq tem ela
+[30May2020 02:21:31.331] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> Atras dela
+[30May2020 02:21:33.877] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> tem outra caverna grande
+[30May2020 02:21:34.928] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> kkkk
+[30May2020 02:21:37.719] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ue
+[30May2020 02:21:39.186] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> pera
+[30May2020 02:21:49.615] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> é na entrada virando a direita?
+[30May2020 02:22:09.389] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> acho que s
+[30May2020 02:23:18.504] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> nhae
+[30May2020 02:23:22.540] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> nhae
+[30May2020 02:23:48.008] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> bora faze a casa?
+[30May2020 02:23:51.456] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> bora
+[30May2020 02:23:58.481] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> peguei 1 pack de tronco enquanto tu tava fora
+[30May2020 02:24:05.258] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> e + 1 de pedra
+[30May2020 02:24:06.513] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> replantou?
+[30May2020 02:24:09.621] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> claro ne
+[30May2020 02:24:11.821] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> ecologia total
+[30May2020 02:24:13.209] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ai ss
+[30May2020 02:24:33.676] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> lagado
+[30May2020 02:24:35.207] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: gustavo5855 lost connection: Timed out
+[30May2020 02:24:35.208] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gustavo5855 left the game
+[30May2020 02:24:35.266] [Server thread/WARN] [net.minecraft.network.NetworkManager/]: handleDisconnection() called twice
+[30May2020 02:24:39.915] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@2ac93f0d
+[30May2020 02:24:39.924] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: gustavo5855[/127.0.0.1:41638] logged in with entity id 6877 at (588.596939827507, 30.0, -84.85092585478544)
+[30May2020 02:24:39.938] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gustavo5855 joined the game
+[30May2020 02:24:39.945] [Netty Epoll Server IO #3/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@17f26fa1 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[30May2020 02:24:39.947] [Netty Epoll Server IO #3/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@17a966eb (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[30May2020 02:24:50.112] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> onde ta a saida
+[30May2020 02:24:55.692] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> cade tu
+[30May2020 02:25:02.840] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> tentando achar a saida
+[30May2020 02:25:07.736] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> achei
+[30May2020 02:25:15.579] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> nhae
+[30May2020 02:25:23.953] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> valha
+[30May2020 02:25:25.661] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> to perdido
+[30May2020 02:25:26.734] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> kkkkk
+[30May2020 02:25:39.833] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> porreessa
+[30May2020 02:25:52.303] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> aqui
+[30May2020 02:26:04.257] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> abom
+[30May2020 02:26:53.968] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> aaaa
+[30May2020 02:27:05.456] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gustavo5855 was slain by Spider
+[30May2020 02:27:06.835] [Netty Epoll Server IO #3/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@17f26fa1 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[30May2020 02:27:06.836] [Netty Epoll Server IO #3/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@17a966eb (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[30May2020 02:27:15.053] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> slpe
+[30May2020 02:27:15.602] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: samodo was slain by Zombie
+[30May2020 02:27:18.290] [Netty Epoll Server IO #3/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@17f26fa1 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[30May2020 02:27:18.291] [Netty Epoll Server IO #3/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@17a966eb (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[30May2020 02:27:52.130] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gustavo5855 has made the advancement [A Seedy Place]
+[30May2020 02:28:36.353] [Server thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Cleric'/3451, l='world', x=649.64, y=75.00, z=29.84] died, message: 'Cleric was slain by Zombie'
+[30May2020 02:29:18.690] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ei
+[30May2020 02:29:22.542] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> mo mod da arvore
+[30May2020 02:29:23.277] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> diz
+[30May2020 02:29:25.153] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> n ta fucnooanndo
+[30May2020 02:29:26.528] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ne
+[30May2020 02:29:31.006] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> ta ue
+[30May2020 02:29:35.487] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ta?
+[30May2020 02:29:39.775] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> de quebrar?
+[30May2020 02:29:41.256] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> claro ue
+[30May2020 02:29:45.813] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> valha
+[30May2020 02:29:50.884] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> valha
+[30May2020 02:29:54.430] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> ue
+[30May2020 02:29:59.592] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> aaaah
+[30May2020 02:31:39.471] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> acho que vou comecar
+[30May2020 02:31:49.720] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> tu vai fazer do msm modelo da anterior
+[30May2020 02:31:50.961] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> ou outro?
+[30May2020 02:31:56.208] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> sim
+[30May2020 02:32:00.175] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> Sim oq kkk
+[30May2020 02:32:00.474] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> bora faszer igual
+[30May2020 02:32:11.179] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> Só muda que na parte de tras vai ser outro quarto ne
+[30May2020 02:32:12.355] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> gostei daquele
+[30May2020 02:32:14.772] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> em vez de armazem
+[30May2020 02:32:18.941] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ah
+[30May2020 02:32:24.630] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> perai
+[30May2020 02:32:33.037] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> na vdd
+[30May2020 02:32:36.408] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> Seria lgl se tivesse um modelo em cima em baixo
+[30May2020 02:32:45.709] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> vou ver aqui
+[30May2020 02:36:39.137] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> apareceu um vendedor
+[30May2020 02:36:43.512] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ue
+[30May2020 02:36:54.914] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> so vende merda
+[30May2020 02:37:02.953] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: samodo has made the advancement [The Parrots and the Bats]
+[30May2020 02:37:11.730] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> qual foi
+[30May2020 02:37:15.155] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> ele vende gelo azul po
+[30May2020 02:37:15.426] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> queria achar maderia escura
+[30May2020 02:37:19.341] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> gelo verdadeiro
+[30May2020 02:37:22.989] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> aham
+[30May2020 02:37:25.879] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> vish
+[30May2020 02:37:27.115] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> pior
+[30May2020 02:37:33.507] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> onde a gente vai achar madeira de carvalho escuro
+[30May2020 02:38:40.254] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> dormir
+[30May2020 02:38:45.680] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> vou procurar madeira depois
+[30May2020 02:40:59.118] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> caralho a selva é grnade demais
+[30May2020 02:41:43.721] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> foda ne
+[30May2020 02:41:50.713] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> procrar qui
+[30May2020 02:41:58.115] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> mas n sei onde temw
+[30May2020 02:42:01.338] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> bioma de madeira escura
+[30May2020 02:42:08.412] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> deve ser em floresta aberta
+[30May2020 02:42:20.760] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> pe vou atras de achar
+[30May2020 02:43:21.820] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2027ms or 40 ticks behind
+[30May2020 02:43:39.592] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2799ms or 55 ticks behind
+[30May2020 02:43:48.340] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> msa tu ta levando cama?w
+[30May2020 02:43:52.492] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> to ocm uma
+[30May2020 02:44:01.524] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> abom
+[30May2020 02:44:25.942] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2049ms or 40 ticks behind
+[30May2020 02:44:43.746] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2853ms or 57 ticks behind
+[30May2020 02:45:22.018] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
+[30May2020 02:45:42.017] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5025ms or 100 ticks behind
+[30May2020 02:45:48.924] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> achei pinheiro
+[30May2020 02:45:51.186] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> serve?
+[30May2020 02:45:55.612] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> Ss
+[30May2020 02:46:00.138] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> fazer porta da ferraria
+[30May2020 02:46:23.531] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: gustavo5855 moved too quickly! -9.875468967216705,2.0,-0.03470559151242014
+[30May2020 02:46:23.545] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3703ms or 74 ticks behind
+[30May2020 02:46:34.072] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> xaero_waypoint:PINHEIROS:P:472:71:603:13:false:0:Internal_overworld_mw-1,1,0
+[30May2020 02:50:15.965] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> slep
+[30May2020 02:51:26.214] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2671ms or 53 ticks behind
+[30May2020 02:54:15.723] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gustavo5855 hit the ground too hard
+[30May2020 02:54:18.966] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> eita
+[30May2020 02:54:20.073] [Netty Epoll Server IO #3/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@17f26fa1 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[30May2020 02:54:20.073] [Netty Epoll Server IO #3/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@17a966eb (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[30May2020 02:54:22.430] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> EGUA
+[30May2020 02:54:31.528] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ainda be q a cama tava perto
+[30May2020 02:56:09.827] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> usar a cabeca
+[30May2020 02:56:21.737] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> pegar tudo aqui
+[30May2020 02:56:23.147] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> replantar
+[30May2020 02:56:25.516] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> e levar muda
+[30May2020 02:56:27.983] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> pra plantar ai
+[30May2020 02:56:34.766] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> pra n ter que voltar
+[30May2020 03:01:38.813] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> zzzz
+[30May2020 03:03:30.719] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> acho que vou voltar ja
+[30May2020 03:03:36.218] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> tu n achou?
+[30May2020 03:03:37.030] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> to ocm 30 mudas
+[30May2020 03:03:41.067] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> achei ue
+[30May2020 03:03:43.618] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> 4 pack
+[30May2020 03:03:45.568] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> valha eu nem vi
+[30May2020 03:03:46.922] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> de tronco
+[30May2020 03:03:50.720] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> ruim desse chat é que n da som
+[30May2020 03:03:51.826] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> nem nada
+[30May2020 03:03:53.567] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> qnd manda mensagm
+[30May2020 03:03:54.529] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> kkkk
+[30May2020 03:03:58.032] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> deve ter mod
+[30May2020 03:04:03.510] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> seria util
+[30May2020 03:04:44.564] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> cara
+[30May2020 03:04:51.585] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> tem mod pra tocar musica dentor do jogo
+[30May2020 03:05:00.638] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> caraca
+[30May2020 03:05:01.331] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> deixar a musica que tu quiser
+[30May2020 03:05:04.181] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> vou guardar
+[30May2020 03:05:16.567] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> pra essa versao n.. aff
+[30May2020 03:05:44.168] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ei
+[30May2020 03:05:48.678] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> tu sabe que zumbi do deserto
+[30May2020 03:05:55.315] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> n morre no sol ne
+[30May2020 03:07:44.741] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> eu nem sabia
+[30May2020 03:07:48.861] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> que tinha zumbi
+[30May2020 03:07:50.710] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> de deserto
+[30May2020 03:07:53.311] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> kkkk
+[30May2020 03:07:56.276] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> n tem pra essa versão o lance da musica?
+[30May2020 03:08:01.939] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> nao;;
+[30May2020 03:08:36.388] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> prendeu o cara kkkk
+[30May2020 03:08:57.988] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> ele se prende sozin
+[30May2020 03:08:59.692] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> esse viado
+[30May2020 03:09:10.211] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ei
+[30May2020 03:09:18.580] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> n sei se pinheiro nasce aqui
+[30May2020 03:09:21.021] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> mas to plantando
+[30May2020 03:09:29.414] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> tu planto o carvalho escuro?
+[30May2020 03:09:38.936] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> nao achei carvalho escuro
+[30May2020 03:09:42.019] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ahei pinheirp
+[30May2020 03:09:47.456] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> que parece ser a msm cisaw
+[30May2020 03:10:01.709] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> eu sei que n é a msms csia
+[30May2020 03:10:05.360] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> mas ao menos parece
+[30May2020 03:10:15.009] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> mentira
+[30May2020 03:10:17.542] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> parece n
+[30May2020 03:10:24.361] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> trabalho em vao
+[30May2020 03:10:25.266] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> aff
+[30May2020 03:10:43.958] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> me arranja trig
+[30May2020 03:10:46.316] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> pra fazer pao
+[30May2020 03:10:48.705] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> vou viajar denovo
+[30May2020 03:12:15.569] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> dormir
+[30May2020 03:13:08.708] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> ten
+[30May2020 03:13:10.774] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> vish n tem
+[30May2020 03:13:13.236] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> a
+[30May2020 03:13:14.275] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> perai
+[30May2020 03:13:29.660] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> eu achei
+[30May2020 03:13:31.678] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> que tu tinha achado
+[30May2020 03:13:33.556] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> carvalho negro
+[30May2020 03:13:37.854] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> obvio que pinheiro n é
+[30May2020 03:13:38.033] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> nao
+[30May2020 03:13:38.929] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> kkkkk
+[30May2020 03:13:46.653] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> mas achei q fosse tao escuro quanto
+[30May2020 03:13:58.212] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> vou la
+[30May2020 03:14:01.573] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> procirar
+[30May2020 03:19:19.689] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> .
+[30May2020 03:19:22.525] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> sd
+[30May2020 03:20:18.125] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> xaero_waypoint:vila 5:V:668:81:689:7:false:0:Internal_overworld_mw-1,1,0
+[30May2020 03:20:46.584] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ei
+[30May2020 03:20:49.317] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> tem abobora ai?
+[30May2020 03:21:29.457] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: gustavo5855 moved too quickly! 4.054345828416217,-5.231523797587016,-7.5180165781102914
+[30May2020 03:21:29.484] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3292ms or 65 ticks behind
+[30May2020 03:23:48.455] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> foi ml n vi
+[30May2020 03:23:50.851] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> n tenho
+[30May2020 03:23:54.533] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> seria bom ter
+[30May2020 03:23:56.270] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> uma coisa de cada
+[30May2020 03:23:58.832] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> pra plantar
+[30May2020 03:24:00.049] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> peguei umas
+[30May2020 03:24:03.460] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> show
+[30May2020 03:24:06.618] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> vai que um dia
+[30May2020 03:24:10.015] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> atualize o mod do morcego
+[30May2020 03:24:15.289] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> kkk
+[30May2020 03:25:37.578] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> zzz
+[30May2020 03:25:52.422] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gustavo5855 was slain by Spider
+[30May2020 03:25:54.137] [Netty Epoll Server IO #3/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@17f26fa1 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[30May2020 03:25:54.137] [Netty Epoll Server IO #3/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@17a966eb (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[30May2020 03:25:58.860] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> aiai
+[30May2020 03:26:02.459] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> n acredito
+[30May2020 03:26:29.839] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> vou pra la dessa vez
+[30May2020 03:28:47.234] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Keeping entity minecraft:chicken that already exists with UUID 76022c43-4eb8-497e-9225-1ca4f16dd68a
+[30May2020 03:30:21.419] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> so tem deserto nessa pora
+[30May2020 03:31:31.594] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Boat (vehicle of gustavo5855) moved too quickly! 10.38161779533175,0.0,-0.4452159502826589
+[30May2020 03:31:31.596] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Boat (vehicle of gustavo5855) moved too quickly! 10.781357785390355,0.0,-0.45762643703972117
+[30May2020 03:31:31.597] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Boat (vehicle of gustavo5855) moved too quickly! 11.181108410371962,0.0,-0.4699040341363343
+[30May2020 03:31:31.597] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Boat (vehicle of gustavo5855) moved too quickly! 11.58086871481737,0.0,-0.48205819698512187
+[30May2020 03:31:31.598] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Boat (vehicle of gustavo5855) moved too quickly! 11.980637730780018,0.0,-0.49410126901386775
+[30May2020 03:31:31.600] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Boat (vehicle of gustavo5855) moved too quickly! 12.380414587108135,0.0,-0.5060443593071113
+[30May2020 03:31:31.601] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Boat (vehicle of gustavo5855) moved too quickly! 12.780198604072666,0.0,-0.517893632600817
+[30May2020 03:31:31.602] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Boat (vehicle of gustavo5855) moved too quickly! 13.179989065609789,0.0,-0.5296584705970417
+[30May2020 03:31:31.604] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Boat (vehicle of gustavo5855) moved too quickly! 13.57978532726247,0.0,-0.5413473168275686
+[30May2020 03:31:31.608] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Boat (vehicle of gustavo5855) moved too quickly! 13.97958691705253,0.0,-0.552963937030654
+[30May2020 03:31:31.608] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Boat (vehicle of gustavo5855) moved too quickly! 14.379393302165681,0.0,-0.5645155538107929
+[30May2020 03:31:31.609] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Boat (vehicle of gustavo5855) moved too quickly! 14.77920400306948,0.0,-0.5760086675118146
+[30May2020 03:31:31.610] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Boat (vehicle of gustavo5855) moved too quickly! 15.179018588185045,0.0,-0.5874491284430405
+[30May2020 03:31:31.611] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Boat (vehicle of gustavo5855) moved too quickly! 15.578836669091288,0.0,-0.5988422018826896
+[30May2020 03:31:31.612] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Boat (vehicle of gustavo5855) moved too quickly! 15.978658000516589,0.0,-0.6101887930244629
+[30May2020 03:31:31.613] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Boat (vehicle of gustavo5855) moved too quickly! 16.37848225740936,0.0,-0.6214935500993306
+[30May2020 03:31:31.614] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Boat (vehicle of gustavo5855) moved too quickly! 16.7783091472229,0.0,-0.6327606565149608
+[30May2020 03:31:31.625] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2182ms or 43 ticks behind
+[30May2020 03:31:52.110] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> psr man
+[30May2020 03:31:57.330] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> deve ter algum problema
+[30May2020 03:31:58.751] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> algum bug
+[30May2020 03:31:59.972] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> sei la
+[30May2020 03:32:07.149] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> pq nos mapa anteriores
+[30May2020 03:32:11.364] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> tinha bem pouco deserto
+[30May2020 03:32:20.960] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> eu acho planicie
+[30May2020 03:32:23.915] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> e carvalho
+[30May2020 03:32:28.563] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> mas do nada comeca o deserto de novo
+[30May2020 03:32:29.825] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> tu pegou cenoura?
+[30May2020 03:32:33.864] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ss
+[30May2020 03:32:37.623] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> ta ctg é?
+[30May2020 03:32:40.096] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ss
+[30May2020 03:32:44.336] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> porco é?
+[30May2020 03:33:35.416] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> s for porco
+[30May2020 03:33:41.192] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> atrai com bataa
+[30May2020 03:34:07.332] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> mas n acho que tem batata aq
+[30May2020 03:34:15.022] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> na vla tem ue
+[30May2020 03:35:03.841] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Boat moved wrongly!
+[30May2020 03:35:03.846] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Boat moved wrongly!
+[30May2020 03:35:03.856] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Boat moved wrongly!
+[30May2020 03:35:03.924] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Boat moved wrongly!
+[30May2020 03:35:03.928] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Boat moved wrongly!
+[30May2020 03:35:17.221] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> hm
+[30May2020 03:35:19.123] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> vd d
+[30May2020 03:36:34.195] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> aidna n vi uma abelha
+[30May2020 03:36:34.232] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2640ms or 52 ticks behind
+[30May2020 03:36:43.498] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> diabeisso
+[30May2020 03:37:28.002] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2110ms or 42 ticks behind
+[30May2020 03:37:59.123] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> sera que ta bugado?
+[30May2020 03:38:02.006] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [gustavo5855: Set the time to 1000]
+[30May2020 03:38:04.293] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> oq
+[30May2020 03:38:06.543] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> mas n faz sentido pq a gente ta na versão 1.15.2
+[30May2020 03:38:08.062] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> sei n
+[30May2020 03:38:09.425] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> pq tu usou comando
+[30May2020 03:38:12.377] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> n é pra usar
+[30May2020 03:38:14.813] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> "_"
+[30May2020 03:38:17.084] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> foi mal
+[30May2020 03:38:18.782] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> to sem cama
+[30May2020 03:38:26.588] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> pois pene
+[30May2020 03:38:28.964] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> hooras
+[30May2020 03:38:32.273] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> kkk
+[30May2020 03:38:33.054] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> a
+[30May2020 03:38:36.415] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> achei abelha
+[30May2020 03:38:52.025] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> xaero_waypoint:abelha:A:2025:79:-1422:4:false:0:Internal_overworld_mw-1,1,0
+[30May2020 03:39:29.062] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2019ms or 40 ticks behind
+[30May2020 03:39:33.381] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> o coisa boa
+[30May2020 03:39:37.676] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> carvalho
+[30May2020 03:39:39.121] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> amem
+[30May2020 03:39:44.899] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> 2
+[30May2020 03:39:46.936] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> kkkkkkkkkkkkkkkkk
+[30May2020 03:39:55.401] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> 2 oq?
+[30May2020 03:40:00.866] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> 2 carvalho escuro
+[30May2020 03:41:22.767] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> osh
+[30May2020 03:41:25.115] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> n tem nem muda?
+[30May2020 03:41:33.169] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> tem 1
+[30May2020 03:41:41.007] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2714ms or 54 ticks behind
+[30May2020 03:41:43.894] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> achei mais
+[30May2020 03:42:29.670] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> qnd eu fizer a farm
+[30May2020 03:42:32.391] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> só vai precisar de 1 muda
+[30May2020 03:42:34.872] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> de qlq planta
+[30May2020 03:42:39.520] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> mt op
+[30May2020 03:43:00.721] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> uaua
+[30May2020 03:44:06.421] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> claro
+[30May2020 03:44:09.583] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> que tem que ter muito po de osso
+[30May2020 03:44:13.785] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> mas pra isso que existe a farm de po de osso
+[30May2020 03:44:18.072] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> que só precisa de 3 cacto
+[30May2020 03:44:19.223] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> como é
+[30May2020 03:44:20.667] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> areia
+[30May2020 03:44:23.824] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> funil
+[30May2020 03:44:24.838] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> bau
+[30May2020 03:44:30.075] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> o negocio de jogar lixo
+[30May2020 03:44:34.579] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> e redstone
+[30May2020 03:44:40.071] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> e fero
+[30May2020 03:44:40.167] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> huum
+[30May2020 03:44:41.669] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> ferro
+[30May2020 03:44:42.624] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ja tem tudo
+[30May2020 03:44:45.269] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> e vidrow
+[30May2020 03:44:50.827] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> quer fazer n logo?
+[30May2020 03:44:52.619] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> na real nenhuma farm é facil de fazer, porem
+[30May2020 03:44:57.085] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> vale a pena
+[30May2020 03:45:00.518] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> tem tudo oq?
+[30May2020 03:45:06.876] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ja fiz algmas
+[30May2020 03:45:11.630] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> tudo pra fazer a de osso
+[30May2020 03:45:21.365] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> a gente tem?
+[30May2020 03:45:27.329] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> tudo que tu falou
+[30May2020 03:45:28.630] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> tem
+[30May2020 03:45:30.867] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ne n?
+[30May2020 03:45:54.226] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> deixa eu ver
+[30May2020 03:46:33.133] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> como é que ta o nome de trilho normal
+[30May2020 03:46:33.632] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> ?
+[30May2020 03:46:43.085] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> trigo ue
+[30May2020 03:47:15.715] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> trigo?
+[30May2020 03:47:22.265] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ah
+[30May2020 03:47:24.029] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> trilho
+[30May2020 03:47:25.436] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> malz
+[30May2020 03:47:34.914] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> trilho é trilho
+[30May2020 03:47:42.119] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> mas n aparece
+[30May2020 03:47:46.887] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> aqui aparece
+[30May2020 03:47:49.021] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> aqui n
+[30May2020 03:47:54.825] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> tu deve ta no portugues de portugal
+[30May2020 03:47:59.011] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ve nas configuracaoes
+[30May2020 03:48:04.788] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> aqui é carrinho
+[30May2020 03:48:08.484] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> mentira
+[30May2020 03:48:11.132] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> n é
+[30May2020 03:48:32.975] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> 7pack de carvalho escuro
+[30May2020 03:48:36.479] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> madeira bruta
+[30May2020 03:49:41.973] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> tmano pc ruim e foda
+[30May2020 03:49:49.280] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> coloquei no mudar idioma pq realemnte tava em pt de portugal
+[30May2020 03:49:53.534] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> passou esse tempo todo carregando
+[30May2020 03:49:58.015] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> pra mudar o IDIOMA
+[30May2020 03:50:00.673] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> aqui é assim tbm
+[30May2020 03:50:03.090] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> tdorme
+[30May2020 03:50:03.669] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> é assim msm
+[30May2020 03:50:13.922] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ele tem quecarregar os arquivos do jogo denovo
+[30May2020 03:50:16.171] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: gustavo5855 lost connection: Disconnected
+[30May2020 03:50:16.171] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gustavo5855 left the game
+[30May2020 03:50:26.266] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@b475a2c
+[30May2020 03:50:26.273] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: gustavo5855[/127.0.0.1:59534] logged in with entity id 37382 at (1883.3881684568212, 64.0, -1727.201277376664)
+[30May2020 03:50:26.278] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gustavo5855 joined the game
+[30May2020 03:50:26.305] [Netty Epoll Server IO #3/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@17f26fa1 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[30May2020 03:50:26.306] [Netty Epoll Server IO #3/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@17a966eb (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[30May2020 03:50:41.270] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> rapaz
+[30May2020 03:50:44.212] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> acho que a gente tem em
+[30May2020 03:50:48.838] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> porem
+[30May2020 03:50:51.567] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> n sei onde eu faria
+[30May2020 03:50:53.115] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> falta o vbridro
+[30May2020 03:50:57.668] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> pq eu tava pensando em fazer uma estrutura
+[30May2020 03:51:01.838] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> naof az perto das casas
+[30May2020 03:51:03.269] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> baseada no da aldeia viking
+[30May2020 03:51:13.163] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> tenta fazer um galpao
+[30May2020 03:51:18.438] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> e faz a farm la
+[30May2020 03:51:42.336] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Boat (vehicle of gustavo5855) moved too quickly! -6.647564129604007,0.0,7.993228350173695
+[30May2020 03:51:42.336] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Boat (vehicle of gustavo5855) moved too quickly! -6.88221564339392,0.0,8.315788003277248
+[30May2020 03:51:42.337] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Boat (vehicle of gustavo5855) moved too quickly! -7.112386265835767,0.0,8.641299603156313
+[30May2020 03:52:19.912] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> é pq eu ia fazer
+[30May2020 03:52:24.091] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> e cobrir com estrutura viking
+[30May2020 03:52:28.527] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> pra parecer uma casa viking e tal
+[30May2020 03:52:31.818] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> sla
+[30May2020 03:52:41.290] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> entendi
+[30May2020 03:52:42.169] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> mas
+[30May2020 03:52:43.145] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2052ms or 41 ticks behind
+[30May2020 03:52:47.892] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> nao tem como fazer todas as farms
+[30May2020 03:52:51.625] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> uma do lado da outra
+[30May2020 03:52:55.969] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> tem msmm n
+[30May2020 03:52:57.467] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> tudo dentro de um galpao nao?
+[30May2020 03:53:01.923] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> vish
+[30May2020 03:53:02.924] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> n sei
+[30May2020 03:53:04.611] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> acho que n
+[30May2020 03:53:08.121] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> pq tem algumas que sao grandes
+[30May2020 03:53:13.307] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> tem que ser separado
+[30May2020 03:53:29.570] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> entao
+[30May2020 03:53:36.974] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> faz uma casa pra cada farm pequena
+[30May2020 03:53:43.969] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> e a farm grande faz afastado, mas so depois
+[30May2020 03:53:54.741] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> vou ver como fica
+[30May2020 03:53:58.629] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> mas acho melhor
+[30May2020 03:54:01.817] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> criar a casa grande principal
+[30May2020 03:54:03.868] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> pra ter uma noção
+[30May2020 03:54:06.185] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> de onde vai ficar as coisas
+[30May2020 03:54:09.389] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> to chegando pra fazer
+[30May2020 03:54:36.776] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> sabe
+[30May2020 03:54:42.614] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> eu acho que fica bom fazer essa farm de osso
+[30May2020 03:54:48.148] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> perto de plantação
+[30May2020 03:54:55.400] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ss
+[30May2020 03:54:56.687] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> hm....
+[30May2020 03:55:00.415] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> a estrutura
+[30May2020 03:55:06.469] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> fica parecendo um
+[30May2020 03:55:12.315] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> como é o nome
+[30May2020 03:55:15.827] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> do que a gente fez
+[30May2020 03:55:17.623] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> faz um celeiro
+[30May2020 03:55:23.687] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> no mapa anterior
+[30May2020 03:55:26.616] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> como era o nome
+[30May2020 03:55:30.784] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> tlgd
+[30May2020 03:55:31.490] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> que ficava na plantação
+[30May2020 03:55:33.116] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> moinho
+[30May2020 03:55:34.613] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> isso
+[30May2020 03:55:37.218] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> fica parecendo um oinho
+[30May2020 03:55:38.774] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> moinho'''
+[30May2020 03:56:00.068] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> da pra fazer a farm dentro do moinho?
+[30May2020 03:56:45.524] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2481ms or 49 ticks behind
+[30May2020 03:57:49.866] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> Assim
+[30May2020 03:57:52.869] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> da pra fazer a farm
+[30May2020 03:57:55.872] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> cobrir el a
+[30May2020 03:57:59.976] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> e enfeitar pra parecer um moinho
+[30May2020 03:58:18.883] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> pode ser um mini moinho sla
+[30May2020 03:58:22.378] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> ou tu quer fazer
+[30May2020 03:58:25.416] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> o msm moinho?
+[30May2020 03:58:34.433] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> por mim
+[30May2020 03:58:37.884] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> tu faz a farm
+[30May2020 03:58:43.592] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> eu n sei o tamanho
+[30May2020 03:58:44.618] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> entao
+[30May2020 03:58:49.212] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> tu faz a farm
+[30May2020 03:58:51.582] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> eu te mandei
+[30May2020 03:58:52.462] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> uma foto
+[30May2020 03:58:53.761] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> e eu construo o moinho
+[30May2020 03:58:53.972] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> no grupo
+[30May2020 03:58:55.134] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ao redor
+[30May2020 03:58:56.314] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> fica daquele jeito
+[30May2020 03:59:00.974] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ah ss
+[30May2020 03:59:03.231] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> tu n viu
+[30May2020 03:59:03.814] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> ?
+[30May2020 03:59:08.214] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> acho que n
+[30May2020 03:59:10.136] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> nao lemnro
+[30May2020 03:59:11.983] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> mandou quando
+[30May2020 03:59:12.038] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> pois ve
+[30May2020 03:59:22.166] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> vou mandar dnv
+[30May2020 03:59:23.880] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> no gruo
+[30May2020 03:59:34.888] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> whatsapp?
+[30May2020 03:59:41.714] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> s
+[30May2020 03:59:43.288] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> mandei
+[30May2020 04:01:07.438] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> man
+[30May2020 04:01:08.509] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> assim
+[30May2020 04:01:21.374] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> melhor fazer o moinho que a gente fez no mapa anterior pq ele alem de ser mais bnt
+[30May2020 04:01:25.520] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> é utilizavfel
+[30May2020 04:01:28.437] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> pode entrar e tal
+[30May2020 04:01:30.157] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ok
+[30May2020 04:01:31.359] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> essa farm
+[30May2020 04:01:33.264] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> eu faço ela
+[30May2020 04:01:34.358] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> vou ver
+[30May2020 04:01:36.888] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> dorme
+[30May2020 04:01:46.895] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> essa farm eu faço ela assim
+[30May2020 04:01:51.920] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> to pensando
+[30May2020 04:01:56.582] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> talvez eu faça ela
+[30May2020 04:02:01.520] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> como uma estrutura de adoração ou algo assim
+[30May2020 04:02:11.212] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> tipo adoração ao deus do osso
+[30May2020 04:02:14.917] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> bem viking
+[30May2020 04:02:16.459] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> podeser
+[30May2020 04:02:18.275] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> rs rs rs rs rs
+[30May2020 04:02:24.627] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> ou então eu coloco e cubro como se fosse uma montanha
+[30May2020 04:02:25.472] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> n sei
+[30May2020 04:02:26.412] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> vou ver
+[30May2020 04:02:28.279] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> os piheiros ansceram
+[30May2020 04:02:28.860] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> onde eu faç?
+[30May2020 04:02:33.379] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> perai
+[30May2020 04:02:37.821] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> plantar logo os carvalhos escuros
+[30May2020 04:03:26.115] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> se a casa vai ser aqui
+[30May2020 04:03:39.327] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> a praça vai ser aqui na frente
+[30May2020 04:03:51.276] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ta vendo?
+[30May2020 04:03:59.213] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> alo
+[30May2020 04:04:01.432] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> caiu
+[30May2020 04:04:26.056] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> alo
+[30May2020 04:04:28.975] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> oi
+[30May2020 04:04:32.268] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> tava pegando agua
+[30May2020 04:04:37.582] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> oq foi
+[30May2020 04:04:37.717] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> olha
+[30May2020 04:04:50.332] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> aqui vai ser a praça com ao poco
+[30May2020 04:04:57.221] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> hmm
+[30May2020 04:05:03.292] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> aqui a casa com as outras casas
+[30May2020 04:05:10.081] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> entao aqui vai ser a entrada da casa?
+[30May2020 04:05:18.823] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ss
+[30May2020 04:05:19.954] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> as casas n precisam ser uma do lado da outra
+[30May2020 04:05:22.787] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> pode ser separado
+[30May2020 04:05:30.619] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> tu disse que era uma so ue
+[30May2020 04:05:35.821] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> sera que eu faço a farm na floresta?
+[30May2020 04:05:40.755] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> sim é uma só
+[30May2020 04:05:40.903] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> isso
+[30May2020 04:05:43.515] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> que ue ia dizer
+[30May2020 04:05:43.704] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> mas as outras casas
+[30May2020 04:05:49.519] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> dos vilage
+[30May2020 04:05:51.204] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> vem k
+[30May2020 04:05:53.522] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> to falando
+[30May2020 04:06:09.729] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> tava epnsando em faszer a plantacao aqui
+[30May2020 04:06:20.286] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> por aqui sla
+[30May2020 04:06:24.657] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> perto das arvores
+[30May2020 04:06:27.780] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> tem que fazer auqele moinhozão
+[30May2020 04:06:32.634] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ss
+[30May2020 04:06:38.614] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> é uma boa
+[30May2020 04:06:38.905] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> entao pera
+[30May2020 04:06:41.162] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> fazer entre as arvores
+[30May2020 04:06:43.961] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> e descer ap lantação
+[30May2020 04:06:47.253] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> no terreno assim
+[30May2020 04:06:52.204] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> faz o moinho no topo
+[30May2020 04:06:55.384] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> e desce a plantação
+[30May2020 04:07:00.708] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> pode ser
+[30May2020 04:07:18.353] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> opode ser aq
+[30May2020 04:07:24.156] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> por aqui
+[30May2020 04:07:32.856] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> o moinho junto das arvores
+[30May2020 04:07:33.706] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> e aqui
+[30May2020 04:07:37.254] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> faz o poço
+[30May2020 04:07:39.026] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> oporto
+[30May2020 04:07:41.716] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> com o barco
+[30May2020 04:07:42.413] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> dps
+[30May2020 04:07:45.184] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ss
+[30May2020 04:07:49.308] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> mapa perfeito
+[30May2020 04:07:49.864] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> mds
+[30May2020 04:07:53.878] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> kkk
+[30May2020 04:07:55.357] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> mah
+[30May2020 04:07:56.859] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> vou dormir
+[30May2020 04:07:59.559] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> morrendo de sono
+[30May2020 04:08:02.987] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> amannha de manha eu entro
+[30May2020 04:08:07.439] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> servidor ta aberto msm
+[30May2020 04:08:11.676] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> hehehe
+[30May2020 04:08:16.160] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> pode crer
+[30May2020 04:08:19.083] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> o serv vai ta aberto
+[30May2020 04:08:20.239] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> ?
+[30May2020 04:08:24.306] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ss
+[30May2020 04:08:28.622] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> porran
+[30May2020 04:08:28.961] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> 24h
+[30May2020 04:08:31.507] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> pior que tu nem fez
+[30May2020 04:08:32.628] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> a casa
+[30May2020 04:08:41.205] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> tentar aqui antes de sair
+[30May2020 04:08:42.558] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> eu gosto de ter noção das coisas vendo elas prontas
+[30May2020 04:08:54.160] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> vou ver
+[30May2020 04:09:03.859] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> faz os blocos
+[30May2020 04:09:06.360] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> ai eu ajudo colocando
+[30May2020 04:09:25.058] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> tem cortador de madeira n ne
+[30May2020 04:09:31.675] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> tem que fazer na mao ne
+[30May2020 04:09:51.307] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> tem ue
+[30May2020 04:09:56.863] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> de madeira?
+[30May2020 04:09:57.159] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> pera
+[30May2020 04:09:57.758] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> q
+[30May2020 04:09:59.806] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> n
+[30May2020 04:11:56.569] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> recomendo assistir a serie
+[30May2020 04:12:03.354] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> the last kingdom
+[30May2020 04:12:48.109] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> ja assisti
+[30May2020 04:12:52.717] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> droga
+[30May2020 04:12:57.842] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> eu assistia desde qnd tava estreando
+[30May2020 04:12:59.110] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> kkkkk
+[30May2020 04:13:07.009] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> kkk
+[30May2020 04:13:28.579] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> zzzzzz
+[30May2020 04:13:36.710] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: gustavo5855 was kicked for floating too long!
+[30May2020 04:13:36.761] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: gustavo5855 lost connection: Flying is not enabled on this server
+[30May2020 04:13:36.761] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gustavo5855 left the game
+[30May2020 04:13:44.168] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@4d1efa00
+[30May2020 04:13:44.184] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: gustavo5855[/127.0.0.1:36158] logged in with entity id 45935 at (575.299999974668, 66.0000002, 33.299999974668026)
+[30May2020 04:13:44.189] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gustavo5855 joined the game
+[30May2020 04:13:44.215] [Netty Epoll Server IO #0/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@17f26fa1 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[30May2020 04:13:44.218] [Netty Epoll Server IO #0/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@17a966eb (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[30May2020 04:14:05.322] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> Quiser ir dormir vala, manha a gente termina a casa
+[30May2020 04:14:10.742] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> eu vou ver se faço a farm
+[30May2020 04:14:17.813] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> so n sei onde exatamente
+[30May2020 04:14:40.988] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> me arranja cenoura
+[30May2020 04:14:42.909] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> peria
+[30May2020 04:15:23.823] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> vish
+[30May2020 04:15:25.657] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> so dois
+[30May2020 04:15:28.234] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> vou ter que planta
+[30May2020 04:15:30.038] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> é
+[30May2020 04:16:25.109] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> valha q lgl
+[30May2020 04:16:31.270] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> o trigo fica ainda mais parecido com o de vdd
+[30May2020 04:16:31.415] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> oq
+[30May2020 04:16:38.660] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ss
+[30May2020 04:16:41.382] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> top
+[30May2020 04:16:45.286] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> quer ajuda ai?
+[30May2020 04:16:55.571] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> eu ainda to pensando
+[30May2020 04:16:59.542] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> tentando lembrar
+[30May2020 04:17:39.556] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> tem tijolo?
+[30May2020 04:17:45.708] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> de pedra
+[30May2020 04:17:46.629] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> ?
+[30May2020 04:17:48.687] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ss
+[30May2020 04:18:11.384] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> aq
+[30May2020 04:18:23.189] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> vlw
+[30May2020 04:18:33.360] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> vish
+[30May2020 04:18:37.535] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> ja acabou tudo de tijolo?
+[30May2020 04:18:42.058] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> nao
+[30May2020 04:18:45.428] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> tem 3 pack
+[30May2020 04:18:48.361] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> vi agora
+[30May2020 04:18:56.528] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> onde?
+[30May2020 04:19:00.465] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> cmg kkk
+[30May2020 04:19:03.284] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> abom
+[30May2020 04:19:05.565] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> qnd for sair guarda
+[30May2020 04:19:08.209] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> no bau
+[30May2020 04:19:08.919] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ok
+[30May2020 04:20:07.871] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> ei o moinho pode ser aqui
+[30May2020 04:20:09.961] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> eu acho
+[30May2020 04:20:26.116] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> onde
+[30May2020 04:20:28.829] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> aq
+[30May2020 04:20:33.884] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> pode ser
+[30May2020 04:20:38.366] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> ou mais pra dentro?
+[30May2020 04:20:39.975] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> da floresta
+[30May2020 04:20:55.808] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> acho qe aqui msm
+[30May2020 04:20:57.573] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ta bom
+[30May2020 04:21:08.289] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> shows
+[30May2020 04:21:14.073] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> nao queria destruir aquela arvore bonita kkkkk
+[30May2020 04:21:24.918] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> então faz
+[30May2020 04:21:28.062] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> mais pra dentro da floresta
+[30May2020 04:21:37.582] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> tipo aqui
+[30May2020 04:21:41.337] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> aqui tbm ficaria bom
+[30May2020 04:21:45.137] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> e tem espaç
+[30May2020 04:21:52.823] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> é aqui é melhor
+[30May2020 04:21:59.435] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> eu so to meio assim com essa cor da grama
+[30May2020 04:22:00.619] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> sla
+[30May2020 04:22:04.339] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> parece morto kkkk
+[30May2020 04:22:05.740] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> a gente ajeita ue
+[30May2020 04:22:15.906] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> e da?
+[30May2020 04:22:19.920] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> é do bioma
+[30May2020 04:22:29.617] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> faz ai
+[30May2020 04:22:31.215] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> a gente ve
+[30May2020 04:22:35.487] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> talvez colocando agua
+[30May2020 04:22:37.304] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> a cor mude
+[30May2020 04:22:40.473] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> ss
+[30May2020 04:22:41.990] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> talvez
+[30May2020 04:23:20.327] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> e outra
+[30May2020 04:23:24.020] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> qnd fizer o moinho
+[30May2020 04:23:25.124] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> ao redor
+[30May2020 04:23:30.383] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> vai ficar só a plantação
+[30May2020 04:23:33.710] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ss
+[30May2020 04:23:37.489] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> entao nem vai da pra perceber
+[30May2020 04:23:51.361] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> vdd
+[30May2020 04:24:57.225] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> zzz
+[30May2020 04:25:19.927] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> tenho impressão que essa aldeia vai ficar mais top que a outra
+[30May2020 04:25:28.855] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> claro quevai
+[30May2020 04:30:58.530] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> como é o nome msm
+[30May2020 04:31:02.258] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> do item que joga lixo?
+[30May2020 04:31:02.318] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> q
+[30May2020 04:31:08.670] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> composteira
+[30May2020 04:31:10.611] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> compositora
+[30May2020 04:31:11.508] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> sla
+[30May2020 04:31:12.923] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> me arraja
+[30May2020 04:31:15.906] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> tijolo
+[30May2020 04:31:34.431] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> ty
+[30May2020 04:33:31.386] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> hmmm
+[30May2020 04:33:34.155] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> a gente n tem slime ne?
+[30May2020 04:33:38.256] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ainda n
+[30May2020 04:33:40.534] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> mas
+[30May2020 04:33:45.406] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> esse mapa que a gente ta usando
+[30May2020 04:33:51.058] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> mostra onde pode dar spawn
+[30May2020 04:33:59.987] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> onde mostra?
+[30May2020 04:34:04.941] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> tem qu fazer farm de slime
+[30May2020 04:34:20.423] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> no tu paarece uns quadrado no mapa?
+[30May2020 04:34:22.830] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> verde eu ahco
+[30May2020 04:34:32.929] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> parece n
+[30May2020 04:34:41.372] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> precisa de slime pra fazer pistão
+[30May2020 04:35:10.483] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> valha
+[30May2020 04:35:14.526] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ta aparecendo msms n
+[30May2020 04:35:32.983] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> vou ver depois
+[30May2020 04:35:47.475] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> slime so em pantano
+[30May2020 04:35:49.409] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ou na farm
+[30May2020 04:35:58.255] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> slep
+[30May2020 04:35:59.512] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> a farm é um buraco no subsolo
+[30May2020 04:36:02.673] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> e tu sabe fazer farm?
+[30May2020 04:36:07.809] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> sei mas demora
+[30May2020 04:36:14.962] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> e tem que saer exatamente onde da spawn
+[30May2020 04:36:23.013] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> tem um minimapa que mostra
+[30May2020 04:36:27.264] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> quando eu achar eu mando
+[30May2020 04:36:36.424] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> oke
+[30May2020 04:36:42.888] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> n vai nem da pra fazer a farm
+[30May2020 04:36:44.076] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> paia
+[30May2020 04:37:01.962] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> pesuisa depois
+[30May2020 04:37:08.583] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> como spawnar slime
+[30May2020 04:37:19.010] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> vo fazer isso
+[30May2020 04:39:31.866] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> o bom do
+[30May2020 04:39:36.306] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> mod de monstros
+[30May2020 04:39:38.456] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> aquele do antigo
+[30May2020 04:39:41.425] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> era o monstro
+[30May2020 04:39:43.421] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> do slime kk
+[30May2020 04:39:43.642] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> é que tinha um monstro que spwnava
+[30May2020 04:39:54.788] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> psr[
+[30May2020 04:40:19.974] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> cabou as pedras
+[30May2020 04:41:02.641] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> pega
+[30May2020 04:41:09.658] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> man
+[30May2020 04:41:15.355] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> ta dizendo que pode ver pelo site mineatlas
+[30May2020 04:41:17.234] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> ai eu vi aqui
+[30May2020 04:41:23.432] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> ta pedindo pra da load no map algo assim
+[30May2020 04:41:25.613] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> da uma olhada
+[30May2020 04:41:29.677] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ok
+[30May2020 04:43:58.082] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> mandei no discord
+[30May2020 04:44:01.272] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> o link
+[30May2020 04:44:03.791] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> ve se tu entende
+[30May2020 04:44:10.687] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> se desse pra saber agr seria uma boa
+[30May2020 04:44:14.010] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> pq eu ja ia logo
+[30May2020 04:44:26.663] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ok
+[30May2020 04:44:39.455] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> n ta pequena?:
+[30May2020 04:44:52.870] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ainda vou fazer os lados
+[30May2020 04:44:57.705] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> as
+[30May2020 04:45:01.069] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> pois ve la
+[30May2020 04:45:05.814] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> n sei se tem que por o mapa
+[30May2020 04:45:06.023] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <gustavo5855> ok
+[30May2020 04:45:07.815] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> algo assim
+[30May2020 04:45:16.063] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> seria otimo ter uma farm de slime
+[30May2020 04:45:32.512] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> pq praticamente todas as farm precsa de pistão com slime
+[30May2020 04:45:39.461] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> se n todas
+[30May2020 04:47:17.763] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <samodo> dorm

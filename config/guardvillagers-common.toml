@@ -1,0 +1,15 @@
+#Switch Guard Model To Vanilla Style?, (textures not completed yet)
+"Vanilla Styled Model?" = false
+#Illagers In Raids Attack Animals?
+"Illagers In Raids Attack Animals?" = false
+#Witches Attack Villagers?
+"Witches Attack Villagers?" = true
+#Illusioners in Raids?
+"Illusioners in Raids?" = true
+#Guards Attack All Mobs?
+"Guards Attack All Mobs?" = false
+#This option makes guards run from ravagers when low on health
+"Make Guards Run From Ravagers When Low On Health?" = true
+#This makes the guard villagers have a slow natural health regeneration.
+"Have Natural Health Regen For The Guards? " = false
+
